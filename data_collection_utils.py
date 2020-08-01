@@ -30,6 +30,7 @@ def collect_comment(post_data, size_to_collect = 50, info_to_collect = ['body'],
     
     url = 'https://api.pushshift.io/reddit/comment/search?link_id={}&size={}'.format(post_id, size_to_collect)
 
+    time.sleep(1)
     response = requests.get(url, headers = headers)
 
     comments_json = None
