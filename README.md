@@ -39,3 +39,5 @@ Retrieve all comment ids for a submission object
 - "YouTube science channel video presenters and comments: female friendly or vestiges of sexism?" (Thelwall and Mas-Bleda, 2018)
 - "Shirtless and dangerous: Quantifying linguistic signals of gender bias in an online fiction writing community." (Fast, Vachovsky, and Bernstein, 2016)
 - "Using language models to quantify gender bias in sports journalism" (Fu, Danescu-Niculescu-Mizil, Lee, 2016)
+
+> :bulb: Look at /r/science instead and how it discusses race/gender?
