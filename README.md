@@ -33,6 +33,8 @@ Retrieve all comment ids for a submission object
 
 [Pushshift Reddit API v4.0 Documentation](https://reddit-api.readthedocs.io/en/latest/#)
 
+! Pushshift created [a tool for more user-friendly search of reddit submissions and comments](https://redditsearch.io/). (What's the rate limit?)
+
 ### Related Works (Incomplete)
 
 - "A Community of Curious Souls: An Analysis of Commenting Behavior on TED Talks Videos" (Tsou, Thelwall, Mongeon, and Sugimoto, 2014)
