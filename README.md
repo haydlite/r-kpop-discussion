@@ -1,19 +1,45 @@
-> :warning: Project is under active development. Details below are more notes in progress rather than documentation for public consumption.
-
 # Exploring /r/kpop discussion
 
-### Introduction / Motivation
+> :warning: Project is under active development. Details below are more notes in progress rather than documentation for public consumption
+
+## Introduction
 
 Do /r/kpop commenters talk differently about male vs. female groups?
 
 Initial exploration of this question:
+
 - Identify submissions on 2 all-male groups, 2 all-female groups
 - Collect their comments
 - Contrast comments in general to "typical" reddit language (using /r/funny as a standard)
-- Contrast comments on male group vs female group 
+- Contrast comments on male group vs female group
   - Separate out into comments for different groups
     - e.g. What adjectives are most associated with which groups?
   - What sort of emojis are used?
+
+### First-Time Set-Up
+
+Create `/data/` and `/data/comments/`.
+
+```bash
+mkdir data
+mkdir data/comments
+conda env create -f environment.yml
+conda activate gendered-discussion
+python
+```
+
+Within Python interpreter
+
+```python
+import nltk
+nltk.download('stopwords')
+```
+
+Run `data_collection.ipynb`
+
+### TODO
+
+- [ ] Add econjobrumors gender paper to references
 
 ### Data Collection
 
